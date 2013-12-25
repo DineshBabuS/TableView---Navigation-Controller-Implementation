@@ -1,0 +1,13 @@
+
+
+@interface TicketListViewController : UITableViewController
+
+{
+
+// These properties are used to carry the field values from previous viewcontroller.
+
+@property (nonatomic, strong) Group *groupFinal;
+@property (nonatomic, strong) Ticket *typeFinal;
+@property (nonatomic, strong) Ticket *statusFinal;
+}
+@end
